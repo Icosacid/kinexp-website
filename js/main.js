@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var app = new Vue({
         router: router,
-        el: '#transition-web',
+        el: '#kinexp-web',
         data: {
             isOpen: false
         }

@@ -1,5 +1,5 @@
-# transition-website
-Website for alexandrix.com/transition
+# kinexp-website
+Website for alexandrix.com/kinexperience
 
 # Setup
 * Install npm (https://docs.npmjs.com/)
