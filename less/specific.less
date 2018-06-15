@@ -1,12 +1,14 @@
 .logo-links {
-	background: @color-10;
+	background: @color-95;
+	border-top: solid 2px @color-90;
+	border-bottom: solid 2px @color-90;
 
 	h3 {
 		text-align: center;
 		padding-top: 35px !important;
 		margin-bottom: -10px !important;
 		font-size: 1.5rem;
-		color: white;
+		color: @color-60 !important;// Yeah nigga
 	}
 
 	.inner {
@@ -16,7 +18,7 @@
 		padding: 40px 0;
 
 		a {
-			color: white;
+			color: @color-60;
 			margin: 10px 35px;
 
 			span.fa {
@@ -71,6 +73,7 @@
 .page-banner {
 	position: relative;
 	background-image: url('../img/art/theoriz1.jpg');
+	//background-image: url('../img/art/ico2.jpg');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	height: 250px;
@@ -118,7 +121,8 @@
 }
 img.melting {
 	transition: filter 500ms;
+	filter: none !important;// Hahahaha!!
 	&:hover {
-		filter: none !important;// Hahahaha!!
+		filter: invert(100%) !important;// Hahahaha!!
 	}
 }

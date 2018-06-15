@@ -3,6 +3,10 @@
 		margin-top: 30px;
 		margin-bottom: 0;
 		font-size: 5rem;
+
+		@media (max-width: 900px) {
+			font-size: 2.5rem;
+		}
 	}
 	p {
 		text-align: justify;
@@ -35,6 +39,7 @@
 
 		img {
 			margin: 10px;
+			border-radius: @border-radius;
 		}
 	}
 	.abstract p {
@@ -59,6 +64,7 @@
 					.flexwrap();
 					.flexstart();
 					align-items: flex-start;
+					padding-right: 30px;
 
 					h4 {
 						margin-left: 20px;
@@ -66,6 +72,9 @@
 					img {
 						width: 130px;
 						margin-right: 15px;
+						margin-bottom: 15px;
+						border-radius: 2px;
+						box-shadow: rgba(0, 0, 0, 0.25) 0 0 5px;
 					}
 				}
 
@@ -96,16 +105,8 @@
 			.flexcol();
 			align-self: flex-end;
 
-			&.superposition img {
-				padding: 10px;
-			}
-			&.aadn img {
-				padding: 10px;
-			}
-			&.aadn, &.mirage, &.superposition, &.melting {
-				img {
-					filter: invert(100%);
-				}
+			&.nrv img {
+				width: 120px;
 			}
 			&.melting p.fa {
 				font-size: 110px;
