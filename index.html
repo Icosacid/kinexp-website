@@ -50,8 +50,8 @@
 			<a href="#showcase" class="menu-tab home">Showcase</a>
 			<a href="#installation" class="menu-tab home">Installation</a>
 			<a href="#about" class="menu-tab home">About</a>
+			<a href="#links" class="menu-tab home">Links</a>
 			<a href="#acks" class="menu-tab home">Acknowledgements</a>
-			<a href="#contact" class="menu-tab home">Contact</a>
 		</div>
 		<div class="mobile-burger" v-on:click="isOpen = !isOpen">
 			<p class="fa fa-bars" v-if="!isOpen"></p>
@@ -65,7 +65,7 @@
 
 	<div class="footer">
 		<!--<p class="click-and-hue">Alex Andrix</p>-->
-		<p class="version">@2018</p>
+		<p class="version">@2018-2019</p>
 	</div>
 </div>
 
@@ -111,7 +111,7 @@
 				<p><strong>3D creation software</strong> -> Unity (version 2018.0.2f)</p>
 				<p><strong>Body motion detection</strong> -> Kinect v2</p>
 				<p><strong>Particle system</strong> -> KAPPS (Theoriz Studio)</p>
-				<p><strong>VR headset</strong> -> HTC Vive (coming soon)</p>
+				<p><strong>VR headset</strong> -> HTC Vive</p>
 				<p><strong>Dancefloor experimentation</strong> -> LABLAB</p>
 			</div>
 			<div class="dates">
@@ -120,12 +120,6 @@
 				<p>Open LABLAB day > <strong>june 12th 2018</strong></p>
 				<p>Sprint 2 > from <strong>jan. 14th 2019</strong> to <strong>feb. 8th 2019</strong> at <a href="https://www.les-subs.com/" target="_blank" title="Les Subsistances">Subsistances</a>/<a href="https://labo-nrv.io/" target="_blank" title="Labo NRV Numérique Réalités Virtualités">LaboNRV</a> - 4 weeks residence</p>
 				<p>Full stage setup > from <strong>february 4th 2019</strong> to <strong>february 8th 2019</strong> at <a href="https://www.les-subs.com/" target="_blank" title="Les Subsistances">Subsistances</a></p>
-				<p>Workshops on motion capture > Festival
-					<a href="https://www.les-subs.com/evenement/le-moi-de-la-danse-2019/" target="_blank" title="Le Moi de la Danse">Le Moi de la Danse</a>, dates to be announced
-				</p>
-
-
-
 			</div>
 			<div class="about" id="about">
 				<h3>About</h3>
@@ -133,7 +127,6 @@
 					<div class="ariane bio-section">
 						<h4>Ariane Cassimiro</h4>
 						<div class="picandtext">
-							<img src="img/other/ariane.jpg" title="Ariane Cassimiro" />
 							<p>
 								Ariane Cassimiro explores relations between dance and digital arts by positioning the public at the very heart of her creations.
 								<br/>
@@ -150,7 +143,6 @@
 					<div class="alex bio-section">
 						<h4>Alex Andrix</h4>
 						<div class="picandtext">
-							<img src="img/other/alexsquare.jpg" title="Alex Andrix" />
 							<p>
 								Alex Andrix uses science in all his creations. Passionate about fundamental physics and particle systems, he started in 2014 with a project of voice-driven artwork generation using web languages. Meeting art director Jean-François Robin in 2017, he co-developed VR project <em>_Transition</em> presented at Mirage Festival in Lyon the following year.
 								<br/>
@@ -162,14 +154,28 @@
 						</div>
 					</div>
 				</div>
-				<div class="external">
-					<br/>
-					<br/>
-					<br/>
-					<p><a href="http://labo-nrv.io/projet/kinexperience/" target="_blank">About the creation process during Sprint 1 (FR)</a></p>
-				</div>
 
 			</div>
+			<br/>
+			<div class="links" id="links">
+				<h3>Links</h3>
+
+				<div class="sprint-2">
+					<p>Note: the team gathered again mid-January 2019 for the second sprint, including tech-artist Yves Brozat. After 2 weeks of work, due to divergence of opinion on artistic choices, working methodology, and others, I decided to quit the project. A mid-term report on our first two weeks of residency is available (FR): <a href="" target="_blank">HERE (yet to come)</a></p>
+				</div>
+
+				<br/>
+				<br/>
+
+				<div class="external">
+					<p>Report on the creation process during Sprint 1 (FR): <a href="http://labo-nrv.io/projet/kinexperience/" target="_blank">HERE</a></p>
+				</div>
+				<p>Link 1: <a href="https://www.les-subs.com/artiste-en-residence/ariane-cassimiro-et-alex-andrix/" target="_blank">here</a></p>
+				<p>Link 2: <a href="http://labo-nrv.io/actu/ariane-cassimiro/" target="_blank">here</a></p>
+				<p>Link 3: <a href="http://labo-nrv.io/actu/kinexperience/" target="_blank">here</a></p>
+				<p>Link 4: <a href="https://www.les-subs.com/en/evenement/chantier-cassimiro-andrix/" target="_blank">here</a></p>
+			</div>
+			<br/>
 			<div class="acks" id="acks">
 				<h3>Acknowledgements</h3>
 				<div class="flexrow flexwrap">
@@ -198,30 +204,6 @@
 </template>
 
 <!-- Components -->
-<template id="logo-links-template">
-	<div class="logo-links">
-		<h3 id="contact">Contact</h3>
-		<div class="inner">
-			<a class="mailme" title="Send an e-mail" href="#"
-			   onclick='linkTo_UnCryptMailto("nbjmup+bmfyAbmfyboesjy/dpn");return false;'>
-				<span class="fa fa-envelope-o"></span>
-			</a>
-            <!--
-			<a class="deviant" title="Check our DeviantArt gallery" href="http://icosacid.deviantart.com/" target='_blank'>
-				<span class="fa fa-deviantart"></span>
-			</a>-->
-			<!--<a class='github' title="Check this page repo on GitHub" href="https://github.com/Icosacid/transition" target='_blank'>
-				<span class="fa fa-github"></span>
-			</a>-->
-			<a class='ariane' title="Ariane website" href="http://arianecassimiro.wixsite.com/inicio" target="_blank">
-				<img src="img/other/ariane.jpg" />
-			</a>
-			<a class='alex' title="Alex website" href="http://alexandrix.com/" target="_blank">
-				<img src="img/other/alexsquare.jpg" />
-			</a>
-		</div>
-	</div>
-</template>
 
 <!-- IE fallback -->
 <div id="ie-fallback">
